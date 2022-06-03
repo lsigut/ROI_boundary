@@ -47,6 +47,6 @@ model). The example visualization for CZ-Krp site is shown below.
     `sf::st_read()` supports various other inputs, an example of loading
     shapefiles is also included.
 -   Google Maps Platform requires a registered API key. In order to run
-    `ggmap::ggmap` successfully you need to obtain one from
+    `ggmap::ggmap()` successfully you need to obtain one from
     <https://cloud.google.com/maps-platform/>. The service is for free
     but it is bound to a credit card, thus cannot be publicly shared.
