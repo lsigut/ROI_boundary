@@ -35,8 +35,8 @@ library(lwgeom) # unclear if supported long-term
 
 # Example for shapefiles
 # - select the folder that contains shapefile
-# ROI <- st_read('./data/fetch_boundaries_VietCarbo01')
-# tower <- st_read('./data/VietCarbo01')
+# ROI <- st_read('./data/folder_with_ROI')
+# tower <- st_read('./data/folder_with_tower_location')
 
 # Example for klm files (exported by Google Earth)
 # - remove Z axis with st_zm()

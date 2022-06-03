@@ -17,6 +17,7 @@
 ### Load packages and data =====================================================
 
 library(sf)
+library(ggmap)
 
 # Example for Kresin u Pacova (CZ-Krp)
 tower <- c(15.0787731, 49.5732575) # c(longtitude, latitude)
@@ -98,8 +99,6 @@ polygon <- st_sfc(st_polygon(list(rbind(polygon_m, polygon_m[1, ]))),
 polygon <- st_transform(polygon, crs = "+proj=longlat +datum=WGS84")
 
 ### Plot the polygon over Google map ===========================================
-
-library(ggmap)
 
 # You need to get your API key from Google (bound to credit card but free)
 register_google(key = "your_API_key")
